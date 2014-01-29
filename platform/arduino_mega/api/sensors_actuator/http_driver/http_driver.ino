@@ -134,7 +134,7 @@ void getInfoFromSD(){
     char * sd_buf = readFromSD();
     if (sd_buf != NULL) {
         char * elementsBuf = (char*) malloc(sizeof(char)*(1500));
-        int buf_size = 100;
+        int buf_size = 200;
         int count = 0;
         char* s = (char*) malloc(sizeof(char)*(buf_size+1));
         char c;
